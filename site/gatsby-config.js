@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: [`gatsby-theme-defaults`]
+  plugins: [`gatsby-theme-mdx-editor`]
 }
