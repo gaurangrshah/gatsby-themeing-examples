@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "gatsby": "^2.18.18",
-    "gatsby-theme-mdx-editor": "*",
+    "gatsby-theme-defaults": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }

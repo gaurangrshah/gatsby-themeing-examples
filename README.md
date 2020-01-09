@@ -39,6 +39,7 @@ Run yarn to ensure the packages' relationships are set properly.
 yarn
 ```
 
+To consume the theme:
 ```shell
   yarn workspace site develop
 ```
