@@ -1,13 +1,22 @@
 import React from "react"
 import { MDXProvider } from "@mdx-js/react"
+import {
+  LiveProvider,
+  LiveEditor,
+  LiveError,
+  LivePreview
+} from 'react-live'
+
 
 const components = {
-  h1: props => (
-    <h1 style={{ color: 'green' }} {...props} />
-  ),
-  pre: props => console.log(props) || <pre {...props} />,
-  wrapper: ({ children }) => <>{children}</> // deliberately not passing in page context props
+  pre: props => (
+    <LiveProvider code={props.children.props.children.trim()}>
+      <LiveEditor />
+      <LiveError />
+      <LivePreview />
+    </LiveProvider>)
 }
+
 export const wrapRootElement = ({ element }) => {
   return (
     <MDXProvider components={components}>
