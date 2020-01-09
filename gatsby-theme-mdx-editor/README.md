@@ -12,7 +12,7 @@ forked that to a seperate theme, to run:
 {
   "private": true,
   "workspaces": [
-    "gatsby-theme-default-starter",
+    "gatsby-theme-mdx-editor",
     "site"
   ]
 }
@@ -22,7 +22,7 @@ forked that to a seperate theme, to run:
 ~/site/package.json:
 ```json
   "dependencies": {
-    "gatsby-theme-default-starter": "*",
+    "gatsby-theme-mdx-editor": "*",
   }
 ```
 
@@ -30,7 +30,7 @@ forked that to a seperate theme, to run:
 
 ```js
 module.exports = {
-  plugins: [`gatsby-theme-default-starter`]
+  plugins: [`gatsby-theme-mdx-editor`]
 }
 ```
 
@@ -46,8 +46,8 @@ To consume the theme:
 
 Alternatively you could update the theme using:
 ```shell
-  yarn workspace gatsby-theme-default-starter develop
+  yarn workspace gatsby-theme-mdx-editor develop
 ```
 
 
-Create pages in `site/src/pages` to override the default theme
+This theme will source files from any `src/pages` from either the theme or the site. Just create new pages. Theme pages are overwritten by site pages of the same name.

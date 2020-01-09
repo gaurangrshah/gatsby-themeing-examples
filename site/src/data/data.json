@@ -1,0 +1,277 @@
+{
+  "content": [
+    {
+    "home": {
+      "heroSection": {
+        "heading": "Meet the Faster More Secure Web.",
+        "tagline": "Let us maximise your potential with the latest and most innovative technologies.",
+        "button": {
+          "buttonLabel": "Work With Us!",
+          "buttonLink": "/"
+        },
+        "outro": "Get a one-on-one consultation in less than 24hrs."
+      },
+      "ctaSection": {
+        "intro": "Featured JAMStack case Study",
+        "heading": "Road To a Better And Faster",
+        "description": "Gatsby.JS, Contentful, and Netlify for a faster and more secure",
+        "button" : {
+          "buttonLabel": "View the full case study.",
+          "buttonLink": "/"
+        },
+        "more": {
+          "moreText": "See 6 more case studies >>",
+          "moreLink": "/"
+        }
+      },
+      "benefitsSection": {
+        "intro": "Sites With Benefits",
+        "heading": "How JAMstack supports your business",
+        "description": "We use the power of JAMstack and server-side rendering to ship value to our customers",
+        "benefits": [
+          {
+            "id": 1,
+            "title": "Swift",
+            "description": "We don't use databases so there's no time-consuming multiple queries. Static sites are even up to 10x faster with benefits for the UI and SERP rankings.",
+            "imgsrc": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/finish_line_katerina_limpitsouni_xy20.svg"
+          },
+          {
+            "id": 2,
+            "title": "Safe",
+            "description": "We don't use databases so there's no time-consuming multiple queries. Static sites are even up to 10x faster with benefits for the UI and SERP rankings.",
+            "imgsrc": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/security_o890.svg"
+          },
+          {
+            "id": 3,
+            "title": "Stable",
+            "description": "We don't use databases so there's no time-consuming multiple queries. Static sites are even up to 10x faster with benefits for the UI and SERP rankings.",
+            "imgsrc": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/real-time_sync_o57k.svg"
+          },
+          {
+            "id": 4,
+            "title": "Scalable",
+            "description": "We don't use databases so there's no time-consuming multiple queries. Static sites are even up to 10x faster with benefits for the UI and SERP rankings.",
+            "imgsrc": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Gardening_eaf3.svg"
+          }
+        ]
+      },
+      "testimonialSection": {
+        "testimonial": "Jammers exceeded our expectations and I wouldn’t hesitate to work with them again. The JAMstack combination of Gatsby, Sanity, and Netlify is cool. It’s modern and robust, but also a fast and effective solution for all of our needs.",
+        "rating": 5,
+        "name": "Simon Jones",
+        "photo": "https://images.generated.photos/1DCxGFumJPhI2jYq8rPkqy2iKaXDZsZXoYGwSHm5uZs/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zLzA5/OTk2OTMuanBn.jpg",
+        "occupation": "VP of Engineering",
+        "association": "Just Technologies AS",
+        "caseStudyLink": "/"
+      },
+      "techSection": {
+        "intro":"TECHNOLOGIES WE USE",
+        "heading":"Beautifying the web",
+        "description":"Every project is a new story, yet some things stay the same. We pick a dedicated set of tools for each one, for the best performance possible."
+      },
+      "featuredPosts": {
+        "intro": "PRODUCTS WE CRAFT",
+        "heading": "Perfect for SMBs and enterprise",
+        "description": "Best things since sliced bread. Shaped with diligence and the highest software-craftsmanship.",
+        "posts": [
+          {
+            "id": 1,
+            "title": "JAMstack Websites",
+            "moreText": "Some quick example text to build on the card title and make up the bulk of the card's content",
+            "moreLink": "/",
+            "img": "https://via.placeholder.com/318x180"
+          },
+          {
+            "id": 2,
+            "title": "Progressive Web Applications",
+            "moreText": "Some quick example text to build on the card title and make up the bulk of the card's content",
+            "moreLink": "/",
+            "img": "https://via.placeholder.com/318x180"
+          }
+        ]
+      },
+      "authority": {
+        "intro": "BETTERING THE WEB FOR CLIENTS FROM",
+        "heading": "14 countries, 5 continents",
+        "description": "We’re an international-ready team. Worked in sync with customers in 7 different time-zones"
+      },
+      "allPosts": {
+        "intro": "OUR STORIES",
+        "heading": "Latest from blog",
+        "posts": [
+          {
+            "id": 1,
+            "title": "JAMstack: The Cornerstone of Modern-day Web Development",
+            "moreLink": "/",
+            "featuredImg": "/static/data_process-3cd6ba5ce32a966073936d4f31173733.svg",
+            "featured": "true"
+          },
+          {
+            "id": 2,
+            "title": "Building a Fast PWA with JAMstack",
+            "moreLink": "/",
+            "featuredImg": "/static/fast_working-6bb86a74e6738daf82d0cbd6c8383254.svg",
+            "featured": "false"
+          },
+          {
+            "id": 3,
+            "title": "JAMstack for clients",
+            "moreLink": "/",
+            "featuredImg": "/static/entrepreneurs-41b45085edc7770fb2d77b1edabb1b73.svg",
+            "featured": "true"
+          },
+          {
+            "id": 4,
+            "title": "WordPress Alternative: The Pros and Cons of Static Site Generators",
+            "moreLink": "/",
+            "featuredImg": "/static/parachute-3a8697a7ead59b0f51f636a8f8bd080c.svg",
+            "featured": "false"
+          },
+          {
+            "id": 5,
+            "title": "9 Headless CMS Options for Your JAMstack site.",
+            "moreLink": "/",
+            "featuredImg": "/static/analyze_on_screen-31dec14aca77afd364fcde8a8a87e7b5.svg",
+            "featured": "false"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "about": {
+      "hero": {
+        "intro": "About Us",
+        "heading": "Jammers in Pajamas.",
+        "tagline":
+          "We are a team of passionate web developers who share the vision of websites, that are high-performing, safe, and easy to maintain.",
+        "button": {
+          "buttonLabel": "Meet The Team!",
+          "buttonLink": "/"
+        }
+      },
+      "cta": {
+        "heading": "It’s nice to meet you",
+        "description":
+          "We are a team of passionate web developers who share the vision of websites, that are high-performing, safe, and easy to maintain. We make this vision happen by building serverless Progressive Web Apps and websites on the JAMstack architecture."
+      },
+      "team": {
+        "intro": "Meet The Jammers",
+        "heading": "Jammers Team",
+        "description":
+          "Working with clients from around the world to build the Web of tomorrow",
+        "team": [
+          { "id": 1, "name": "Frank Hock", "title": "Big Cheese", "img": ""},
+          { "id": 2, "name": "Greg Shah", "title": "Head Honco", "img": "" }
+        ]
+      },
+      "techContent": {
+        "intro":"TECHNOLOGIES WE USE",
+        "heading":"Beautifying the web",
+        "description":"Every project is a new story, yet some things stay the same. We pick a dedicated set of tools for each one, for the best performance possible.",
+        "button": {
+          "buttonLabel": "Consult Your Project",
+          "buttonLink": "/"
+        }
+      },
+      "principles":{
+        "intro": "THINGS WE VALUE",
+        "heading": "Believability at the core",
+        "description":
+          "As a remote team of independent thinkers, we share the same values that make things work like a charm.",
+        "buttonLabel": [],
+        "buttonLink": ["/"],
+        "cards": [
+          {
+            "id": 1,
+            "title": "Transparency and Truthfulness",
+            "description":
+              "We communicate with each other honestly, even if the truth violates one's ego. We believe that in the long term only through good and honest communication with each other we can generate added value for our clients.",
+            "link": ""
+          },
+          {
+            "id": 2,
+            "title": "Openness of mind",
+            "description":
+              "In our case transparency means that everyone's opinion is open for discussion by anyone on the team. That is why it is so important for us to keep our mind open and treat every feedback with humility, a chance to look at things from another perspective, and as an opportunity to improve our skills."
+          },
+          {
+            "id": 3,
+            "title": "Commitment and Responsibility",
+            "description":
+              "Remote work gives great possibilities, but comes with great responsibility. At Bejamas, each team member is responsible for a certain part of a project and it’s on them to deliver the best solution for it. For us it’s crucial to keep things this way and run projects as a well-oiled machine."
+          },
+          {
+            "id": 4,
+            "title": "Empathy and Unselfishness",
+            "description":
+              "Those are two very important factors at Bejamas. We believe that every person deserves valuable relationships with other people and a pleasant work environment. We try to help each other and give as much as we take ourselves."
+          }
+        ],
+        "sectionFooter": {
+          "description":
+            "For us customers really do come first because we help them not only grow their businesses but also educate them to understand the tech behind it.",
+          "button":{
+            "buttonLabel": "Work with us!",
+            "buttonLink": "/"
+          }
+        }
+      }
+    }
+  },
+  {
+    "contact": {
+      "hero": {
+        "intro": "Contact Us",
+        "heading": "Now we're jammin'",
+        "tagline": "Tell us about your project, get a quick estimate, develop a game plan for making it live, and get the Jam Poppin!",
+        "button": {
+          "buttonLabel": "Get Started Now!",
+          "buttonLink": "/"
+        },
+        "button2": {
+          "buttonLabel": "Contact Us Now",
+          "buttonTeaser": "Need More Info?"
+        },
+        "outro": "Get a one-on-one consultation in less than 24hrs."
+      }
+    }
+  },
+  {
+    "shared": {
+      "technologies":{
+        "dataSources":[
+          {"id":1,"partner":"contentful","logo":"https://d21buns5ku92am.cloudfront.net/41748/images/265844-logo-black_700x149-2e0d38-original-1511779631.png","link":"https://www.contentful.com/"},
+          {"id":2,"partner":"storyblok","logo":"https://a.storyblok.com/f/51376/3856x824/fea44d52a9/colored-full.png","link":"https://a.storyblok.com/f/51376/3856x824/fea44d52a9/colored-full.png"},
+          {"id":3,"partner":"sanity","logo":"https://www.sanity.io/static/images/logo.png","link":"https://www.sanity.io/"},
+          {"id":4,"partner":"forestry","logo":"https://forestry.io/img/forestry-pos-full.svg?va47ea7433112d2bca6a25cc52cda6fdb","link":"https://forestry.io/"},
+          {"id":5,"partner":"datocms","logo":"https://www.datocms-assets.com/205/1559912068-artboard44444.svg","link":"https://www.datocms.com"}
+        ],
+        "build":[
+          {"id":1,"partner":"gatsby","logo":"","link":""},
+          {"id":2,"partner":"nextjs","logo":"","link":""},
+          {"id":3,"partner":"hugo","logo":"","link":""},
+          {"id":4,"partner":"react","logo":"","link":""},
+          {"id":5,"partner":"node","logo":"","link":""}
+          ],
+        "deploy":[
+          {"id":1,"partner":"netlify","logo":"","link":""},
+          {"id":2,"partner":"now","logo":"","link":""},
+          {"id":3,"partner":"firebase","logo":"","link":""},
+          {"id":4,"partner":"aws","logo":"","link":""}
+        ]
+      },
+      "footerCta":{
+        "intro": "JAMSTACK DEVELOPERS FOR HIRE",
+        "heading": "Ready to join JAMstack revolution?",
+        "description": "Start your super-fast project with us or take your existing product to the next level.",
+        "button": {
+          "buttonLabel": "Work With Us!",
+          "buttonLink": "/"
+        }
+      }
+    }
+  }
+]
+
+}

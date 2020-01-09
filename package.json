@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "gatsby-theme-default-starter",
-    "gatsby-theme-data-layer",
+    "gatsby-theme-json-data",
     "site"
   ]
 }

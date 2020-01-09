@@ -1,4 +1,9 @@
 const path = require(`path`)
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/mdTemplate.js`)
@@ -25,7 +30,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: node.frontmatter.path,
+      path: node.frontmatter.path || `/random/${getRandomInt(1000)}`,
       component: blogPostTemplate,
       context: {}, // additional data can be passed via context
     })

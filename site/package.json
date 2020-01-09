@@ -14,7 +14,7 @@
   "dependencies": {
     "gatsby": "^2.18.18",
     "gatsby-theme-default-starter": "*",
-    "gatsby-theme-data-layer": "*",
+    "gatsby-theme-json-data": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
