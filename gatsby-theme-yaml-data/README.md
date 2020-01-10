@@ -27,3 +27,49 @@ This theme will create an entry for each 'event' found in `site/data/*.yml`
 > ```
 >
 > `contentPath`, must be provided to options in order for theme to run without error, `basePath` will create an `/events` directory if one doesn't exist, and is used to set a base url path for our events.
+
+
+## Setup
+
+### REFERENCE: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
+
+```json
+{
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-yaml-data",
+    "site"
+  ]
+}
+
+```
+
+~/site/package.json:
+```json
+  "dependencies": {
+    "gatsby-theme-yaml-data": "*",
+  }
+```
+
+~/site/gatsby-config.js
+
+```js
+module.exports = {
+  plugins: [`gatsby-theme-yaml-data`]
+}
+```
+
+Run yarn to ensure the packages' relationships are set properly.
+```shell
+yarn
+```
+
+To consume the theme:
+```shell
+  yarn workspace site develop
+```
+
+Alternatively you could update the theme using:
+```shell
+  yarn workspace gatsby-theme-yaml-data develop
+```
