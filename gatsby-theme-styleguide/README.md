@@ -8,7 +8,7 @@
   yarn workspace <consuming-site-name> add "gatsby-theme-styleguide@*"
 ```
 
-This theme configures the following packages and plugins for consumption by a site: 
+This theme configures the following packages and plugins for consumption by a site:
 
 ```shell
 gatsby-plugin-theme-ui theme-ui @emotion/core @emotion/styled @mdx-js/react
@@ -40,7 +40,7 @@ export const theme = {
 
 ## Component Shadowing && Theme Overrides
 
-Allows us to override a default theme from `gatsby-theme-ui` to do this we create a directory that houses our shadowed components, the directory must be named: `src/gatsby-plugin-theme-ui`  
+Allows us to override a default theme from `gatsby-theme-ui` to do this we create a directory that houses our shadowed components, the directory must be named: `src/gatsby-plugin-theme-ui`
 
 ---
 
@@ -96,7 +96,7 @@ export default EventList
 
 Overriding Overall Theme from **ANY** Consuming site:
 
-> **NOTE**: the placement of this directory must mimic the location of the same directory from the theme. 
+> **NOTE**: the placement of this directory must mimic the location of the same directory from the theme.
 
 
 
@@ -171,5 +171,5 @@ export default props => (
 
 ```
 
-> Here we've simply just added an <h2> and a <p> to show that we can pass thru a component from another theme in order to shadow it, allowing us to configure it how we like or just add other content to the component like we are here. 
+> Here we've simply just added an `<h2>` and a `<p>` to show that we can pass thru a component from another theme in order to shadow it, allowing us to configure it how we like or just add other content to the component like we are here.
 
