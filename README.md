@@ -18,7 +18,7 @@
 ~/site/package.json:
 ```json
   "dependencies": {
-    "gatsby-theme-mdx-editor": "*",
+    "gatsby-theme-[theme-name]": "*",
   }
 ```
 
@@ -26,7 +26,7 @@
 
 ```js
 module.exports = {
-  plugins: [`gatsby-theme-mdx-editor`]
+  plugins: [`gatsby-theme-[theme-name]`]
 }
 ```
 
@@ -35,12 +35,12 @@ Run yarn to ensure the packages' relationships are set properly.
 yarn
 ```
 
-To consume the theme:
+To consume the theme run develop on site after configuration is updated:
 ```shell
   yarn workspace site develop
 ```
 
-Alternatively you could update the theme using:
+Alternatively you could edit the theme itself using:
 ```shell
-  yarn workspace gatsby-theme-mdx-editor develop
+  yarn workspace gatsby-theme-[theme-name] develop
 ```
