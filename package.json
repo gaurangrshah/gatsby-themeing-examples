@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "gatsby-theme-default-starter",
-    "gatsby-theme-api-data",
+    "gatsby-theme-boostrap-sass",
     "site"
   ]
 }

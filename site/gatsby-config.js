@@ -4,6 +4,7 @@ module.exports = {
     `gatsby-theme-default-starter`,
     // `gatsby-theme-markdown-data`,
     // `gatsby-theme-mdx-editor`,
-    `gatsby-theme-json-data`
+    // `gatsby-theme-json-data`
+    `gatsby-theme-boostrap-sass`
   ]
 }

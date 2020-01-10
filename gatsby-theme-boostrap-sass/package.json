@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "name": "site",
+  "name": "gatsby-theme-boostrap-sass",
   "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -11,11 +11,17 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "dependencies": {
+  "peerDependencies": {
     "gatsby": "^2.18.18",
-    "gatsby-theme-default-starter": "*",
-    "gatsby-theme-boostrap-sass": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gatsby": "^2.18.18",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "dependencies": {
+
   }
 }
