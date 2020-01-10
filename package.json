@@ -4,6 +4,7 @@
     "gatsby-theme-default-starter",
     "gatsby-theme-boostrap-sass",
     "gatsby-theme-yaml-data",
+    "gatsby-theme-styleguide",
     "site"
   ]
 }
