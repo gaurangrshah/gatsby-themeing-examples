@@ -6,6 +6,7 @@ module.exports = {
     // `gatsby-theme-mdx-editor`,
     // `gatsby-theme-json-data`
     `gatsby-theme-boostrap-sass`,
+    `gatsby-theme-styleguide`,
     {
       resolve: `gatsby-theme-yaml-data`,
       options: {

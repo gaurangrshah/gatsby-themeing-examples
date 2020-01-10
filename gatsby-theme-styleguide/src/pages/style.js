@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function () {
+export default function style() {
   return (
     <div>
-      Yup Now
+      test from styles
     </div>
   )
 }
