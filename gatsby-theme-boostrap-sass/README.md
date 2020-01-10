@@ -4,7 +4,7 @@
 -- to install run:
 
 ```shell
-  yarn workspace <consuming-site-name> add "gatsby-theme-bootstrap-sass"
+  yarn workspace <consuming-site-name> add "gatsby-theme-bootstrap-sass@*"
 ```
 
 Theme exposes default styles, to add boostrap and introduce scss to consumer:

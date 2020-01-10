@@ -5,6 +5,7 @@ module.exports = {
     // `gatsby-theme-markdown-data`,
     // `gatsby-theme-mdx-editor`,
     // `gatsby-theme-json-data`
-    `gatsby-theme-boostrap-sass`
+    `gatsby-theme-boostrap-sass`,
+    `gatsby-theme-yaml-data`
   ]
 }
