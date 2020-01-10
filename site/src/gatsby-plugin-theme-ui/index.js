@@ -1,4 +1,4 @@
-import merge from 'lodash.merge'
+import { merge } from 'lodash'
 import { theme } from "gatsby-theme-styleguide/src/theme"
 
 export default merge({}, theme, {

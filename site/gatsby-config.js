@@ -1,10 +1,14 @@
 module.exports = {
+  siteMetadata: {
+    title: `Gatsby Themes Consumer`,
+    description: `Testing consumption of multiple gatsby themes`,
+    author: `@gs`,
+  },
   plugins: [
     // `gatsby-theme-mdx-editor`,
-    `gatsby-theme-default-starter`,
     // `gatsby-theme-markdown-data`,
-    // `gatsby-theme-mdx-editor`,
     // `gatsby-theme-json-data`
+    `gatsby-theme-default-starter`,
     `gatsby-theme-boostrap-sass`,
     {
       resolve: `gatsby-theme-yaml-data`,

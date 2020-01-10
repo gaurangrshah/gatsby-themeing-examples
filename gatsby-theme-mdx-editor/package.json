@@ -26,7 +26,6 @@
     "@mdx-js/react": "^1.5.3",
     "gatsby-plugin-mdx": "^1.0.64",
     "prism-react-renderer": "^1.0.2",
-    "react-color": "^2.18.0",
     "react-live": "^2.2.2"
   }
 }

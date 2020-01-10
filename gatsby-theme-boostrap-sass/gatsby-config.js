@@ -6,15 +6,5 @@ module.exports = {
         precision: 6,
       },
     },
-    // `boostrap`,
-    // `node-sass`,
-    // `reactstrap`,
-
-    // `popper.js`,
-    // `jquery`,
-
-    // `animate.css`,
-
-
   ]
 }
