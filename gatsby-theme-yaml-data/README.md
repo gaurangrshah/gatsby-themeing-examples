@@ -5,7 +5,7 @@
 -- to install run:
 
 ```shell
-  yarn workspace <consuming-site-name> add "gatsby-theme-yaml-data@*"
+  yarn workspace [consuming-site-name] add "gatsby-theme-yaml-data@*"
 ```
 
 This theme will create an entry for each 'event' found in `site/data/*.yml`
