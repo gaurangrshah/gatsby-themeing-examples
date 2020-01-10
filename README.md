@@ -8,7 +8,7 @@
 {
   "private": true,
   "workspaces": [
-    "gatsby-theme-mdx-editor",
+    "gatsby-theme-[theme-name]",
     "site"
   ]
 }
