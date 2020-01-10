@@ -31,7 +31,6 @@ This theme will create an entry for each 'event' found in `site/data/*.yml`
 
 ## Setup
 
-### REFERENCE: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
 
 ```json
 {
