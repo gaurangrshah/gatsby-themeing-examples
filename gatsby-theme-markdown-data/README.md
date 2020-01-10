@@ -49,6 +49,9 @@ Alternatively you could update the theme using:
   yarn workspace gatsby-theme-markdown-data develop
 ```
 
+##🚨 TODO: 
+> Test implementation -- double check if the consuming site still requires it's own template.
+
 You will also need to create a file in your `site` directory:
 `site/src/templates/mdTemplate.js`
 ```js
