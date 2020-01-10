@@ -2,6 +2,9 @@
 
 ## 👷‍♂️🚧🏗
 
+This is still a work-in-progress - basic setup is complete and implement, few bugs that need to be looked at.
+
+
 ## Setup
 
 ### REFERENCE: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
