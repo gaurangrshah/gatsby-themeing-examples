@@ -173,3 +173,48 @@ export default props => (
 
 > Here we've simply just added an `<h2>` and a `<p>` to show that we can pass thru a component from another theme in order to shadow it, allowing us to configure it how we like or just add other content to the component like we are here.
 
+
+
+
+## Setup
+
+```json
+{
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-styleguide",
+    "site"
+  ]
+}
+
+```
+
+~/site/package.json:
+```json
+  "dependencies": {
+    "gatsby-theme-styleguide": "*",
+  }
+```
+
+~/site/gatsby-config.js
+
+```js
+module.exports = {
+  plugins: [`gatsby-theme-styleguide`]
+}
+```
+
+Run yarn to ensure the packages' relationships are set properly.
+```shell
+yarn
+```
+
+To consume the theme:
+```shell
+  yarn workspace site develop
+```
+
+Alternatively you could update the theme using:
+```shell
+  yarn workspace gatsby-theme-styleguide develop
+```
