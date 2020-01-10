@@ -5,7 +5,7 @@
 -- to install run:
 
 ```shell
-  yarn workspace <consuming-site-name> add "gatsby-theme-styleguide@*"
+  yarn workspace [consuming-site-name] add "gatsby-theme-styleguide@*"
 ```
 
 This theme configures the following packages and plugins for consumption by a site:
