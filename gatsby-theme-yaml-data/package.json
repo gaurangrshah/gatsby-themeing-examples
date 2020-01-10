@@ -22,6 +22,7 @@
     "react-dom": "^16.12.0"
   },
   "dependencies": {
-
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-yaml": "^2.2.23"
   }
 }
