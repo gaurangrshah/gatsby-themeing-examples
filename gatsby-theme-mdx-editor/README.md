@@ -1,8 +1,10 @@
-Currently have working mdx editor theme as per: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
+# WIP
 
-forked that to a seperate theme, to run:
-~/package.json:
+## 👷‍♂️🚧🏗
 
+## Setup
+
+###REFERENCE: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
 
 ```json
 {
