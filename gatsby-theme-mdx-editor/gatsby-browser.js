@@ -2,7 +2,6 @@ import React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
 import Highlight, { defaultProps } from "prism-react-renderer";
-import "./src/styles/base.css"
 
 const LiveCode = props => (
   <LiveProvider code={props.children.props.children.trim()}>
