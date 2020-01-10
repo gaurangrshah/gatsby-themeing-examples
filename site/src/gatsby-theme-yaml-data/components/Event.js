@@ -1,5 +1,5 @@
 import React from 'react';
-import Event from 'gatsby-theme-styleguide';
+import Event from 'gatsby-theme-yaml-data/src/components/Event';
 
 export default props => (
   <div>

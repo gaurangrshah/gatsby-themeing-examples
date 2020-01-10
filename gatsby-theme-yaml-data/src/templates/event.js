@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import YamlLayout from "../components/YamlLayout"
+import Layout from "../components/Layout"
 import Event from "../components/Event"
 
 // queries data for individual events
@@ -21,9 +21,9 @@ export const query = graphql`
 `
 
 const EventTemplate = ({ data: { event } }) => (
-  <YamlLayout>
+  <Layout>
     <Event {...event} />
-  </YamlLayout>
+  </Layout>
 )
 
 export default EventTemplate

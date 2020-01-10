@@ -1,5 +1,5 @@
 import React from "react"
-import YamlLayout from "../components/YamlLayout"
+import Layout from "../components/Layout"
 import EventList from "../components/EventList"
 
 import { graphql, useStaticQuery } from "gatsby"
@@ -21,9 +21,9 @@ const EventsTemplate = () => {
   `)
   const events = data.allEvent.nodes
   return (
-    <YamlLayout>
+    <Layout>
       <EventList events={events} />
-    </YamlLayout>
+    </Layout>
   )
 }
 export default EventsTemplate
