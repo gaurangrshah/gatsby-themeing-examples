@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-theme-yaml-data`,
       options: {
         // allows ability to set options for the theme -- defined by the theme
-        contentPath: '/', // sets the value for our contentPath
+        contentPath: 'data', // sets the value for our contentPath
         basePath: '/events' // sets the value for the events path
         // based on our theme settings, this will create the events folder if it does not exist,
         // -- as per our config.

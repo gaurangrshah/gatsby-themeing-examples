@@ -5,6 +5,13 @@
 module.exports = ({ contentPath = "data", basePath = "/" }) => ({
   // any options provided by the theme are provided as arguments to this function
   // -- allowing us to dynamically pass in values to our theme's gatsby-config and/or gatsby-node:
+
+  siteMetadata: {
+    title: 'Gatsby Events Theme',
+    headline: 'Upcoming Events',
+    basePath
+  },
+
   plugins: [
     {
       resolve: "gatsby-source-filesystem",

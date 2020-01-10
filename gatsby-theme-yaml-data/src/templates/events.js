@@ -20,7 +20,6 @@ const EventsTemplate = () => {
     }
   `)
   const events = data.allEvent.nodes
-
   return (
     <YamlLayout>
       <EventList events={events} />

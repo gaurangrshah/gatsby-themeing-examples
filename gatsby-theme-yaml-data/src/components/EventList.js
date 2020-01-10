@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+
 const EventList = ({ events }) => (
   <>
     {/* {JSON.stringify(events, null, 2)} */}
-    <h2 className="text-right">Upcoming Events</h2>
+    <h2>Upcoming Events</h2>
     <ul>
       {events.map(event => (
         <li key={event.id}>
