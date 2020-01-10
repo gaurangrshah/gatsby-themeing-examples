@@ -1,12 +1,8 @@
-# WIP
-
-## 👷‍♂️🚧🏗
-
-Currently have working theme based on the gatsby-default-starter
+Currently have working mdx editor theme as per: [egghead](https://egghead.io/lessons/vue-js-introduction-to-mdx?pl=building-websites-with-mdx-and-gatsby-161e9529)
 
 forked that to a seperate theme, to run:
-
 ~/package.json:
+
 
 ```json
 {
@@ -48,6 +44,3 @@ Alternatively you could update the theme using:
 ```shell
   yarn workspace gatsby-theme-mdx-editor develop
 ```
-
-
-This theme will source files from any `src/pages` from either the theme or the site. Just create new pages. Theme pages are overwritten by site pages of the same name.
