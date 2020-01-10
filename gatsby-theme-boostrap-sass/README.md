@@ -1,12 +1,6 @@
 🚨🚧🏗
 # WIP -- Under Development
 
--- to install run:
-
-```shell
-  yarn workspace <consuming-site-name> add "gatsby-theme-bootstrap-sass@*"
-```
-
 Theme exposes default styles, to add boostrap and introduce scss to consumer:
 
 create a styles directory in the consuming site:
@@ -42,4 +36,47 @@ import "../styles/styles.scss"
       </div>
     )
   }
+```
+
+## Setup
+
+```json
+{
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-boostrap-sass",
+    "site"
+  ]
+}
+
+```
+
+~/site/package.json:
+```json
+  "dependencies": {
+    "gatsby-theme-boostrap-sass": "*",
+  }
+```
+
+~/site/gatsby-config.js
+
+```js
+module.exports = {
+  plugins: [`gatsby-theme-boostrap-sass`]
+}
+```
+
+Run yarn to ensure the packages' relationships are set properly.
+```shell
+yarn
+```
+
+To consume the theme:
+```shell
+  yarn workspace site develop
+```
+
+Alternatively you could update the theme using:
+```shell
+  yarn workspace gatsby-theme-boostrap-sass develop
 ```
