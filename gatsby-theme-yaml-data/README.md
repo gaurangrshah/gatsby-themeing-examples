@@ -7,6 +7,12 @@
 ```shell
   yarn workspace [consuming-site-name] add "gatsby-theme-yaml-data@*"
 ```
+An index page might not be loaded if your site doesn't already implement one,
+instead goto: localhost:8000/list -- which is where the event example list renders.
+- this can be configured in the theme's gatsby-node, in createPages by updating listPath
+
+> - **NOTE**: createPages doesn't seem to take an options object (`verify`)
+> - [reference: gatsby-node api](https://www.gatsbyjs.org/docs/node-apis/#createPages)
 
 This theme will create an entry for each 'event' found in `site/data/*.yml`
 

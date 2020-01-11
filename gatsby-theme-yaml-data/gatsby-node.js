@@ -68,7 +68,7 @@ exports.createResolvers = ({ createResolvers }, options) => {
 
 // query for events and create pages
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  const listPath = "/list"
+  const listPath = "/events"
   actions.createPage({
     path: listPath, // location to create the list page for all items found new page
     component: require.resolve("./src/templates/events.js"), // component to use to render page
