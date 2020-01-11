@@ -1,10 +1,11 @@
 import React from 'react'
+import Box from "../components/Box"
 import "../styles/styles.scss"
 
 export default function about() {
   return (
-    <div className="text-center">
-      Test
-    </div>
+    <Box className="text-center">
+      About
+    </Box>
   )
 }

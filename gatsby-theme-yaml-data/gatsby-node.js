@@ -44,7 +44,7 @@ exports.sourceNodes = ({ actions }) => {
 
 // 🏗 refactors to add options, which are provided as the 2nd arg:
 exports.createResolvers = ({ createResolvers }, options) => {
-  const basePath = options.basePath || "/" // sets basePath from options or defaults to "/" root
+  const basePath = options.basePath || "/events" // sets basePath from options or defaults to "/" root
   // Quick-and-dirty helper to convert strings into URL-friendly slugs.
   const slugify = str => {
     const slug = str
@@ -68,9 +68,9 @@ exports.createResolvers = ({ createResolvers }, options) => {
 
 // query for events and create pages
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  const basePath = "/"
+  const listPath = "/list"
   actions.createPage({
-    path: basePath, // location to create the new page
+    path: listPath, // location to create the list page for all items found new page
     component: require.resolve("./src/templates/events.js"), // component to use to render page
   })
   // creates a query for individual events from the response of createPages:

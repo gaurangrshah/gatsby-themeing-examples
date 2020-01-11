@@ -2,7 +2,7 @@
 // refactor the following to take options:
 
 // module.exports = {
-module.exports = ({ contentPath = "data", basePath = "/" }) => ({
+module.exports = ({ contentPath = "data", basePath = "/", }) => ({
   // any options provided by the theme are provided as arguments to this function
   // -- allowing us to dynamically pass in values to our theme's gatsby-config and/or gatsby-node:
   siteMetadata: {
@@ -13,12 +13,14 @@ module.exports = ({ contentPath = "data", basePath = "/" }) => ({
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        listPath: "parties",
         path: contentPath,
       },
     },
     {
       resolve: "gatsby-transformer-yaml",
       options: {
+        listPath: "jammyjams",
         typeName: "Event",
       },
     },

@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { Styled } from "theme-ui"
 
+// ⛔️ demonstrates implementing theme-ui components in another theme
+
 const EventList = ({ events }) => (
   <>
     {/* {JSON.stringify(events, null, 2)} */}
