@@ -13,14 +13,12 @@ module.exports = ({ contentPath = "data", basePath = "/", }) => ({
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        listPath: "parties",
         path: contentPath,
       },
     },
     {
       resolve: "gatsby-transformer-yaml",
       options: {
-        listPath: "jammyjams",
         typeName: "Event",
       },
     },
