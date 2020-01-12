@@ -1,46 +1,34 @@
+import { tailwind } from '@theme-ui/presets';
+
 export const theme = {
-  space: [0, 4, 8, 16, 32],
-  fonts: {
-    body: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif'
-  },
-  fontSizes: [16, 18, 20, 22, 27, 36],
-  lineHeights: {
-    body: 1.45,
-    heading: 1.1
-  },
-  colors: {
-    gray: ['#efefef', '#ddd', '#333', '#111'],
-    background: '#fff',
-    primary: 'rebeccapurple'
-  },
+  ...tailwind,
   sizes: {
+    ...tailwind.sizes,
     default: '90vw',
-    max: '540px'
+    max: '100vw'
   },
   styles: {
-    // sets defaults for components
-    // provided by theme-ui
+    // sets defaults for components provided by theme-ui
     Layout: {
-      color: 'gray.2',
+      color: 'primary',
       fontFamily: 'body',
       fontSize: 1,
-      lineHeight: 'body'
+      lineHeight: 'body',
     },
     Header: {
       backgroundColor: 'primary',
       color: 'background',
       fontWeight: 'bold',
       margin: '0 auto',
-      maxWidth: 'max',
+      width: 'max',
       padding: 3,
-      width: 'default',
       a: {
         color: 'inherit'
       }
     },
     Main: {
       margin: '0 auto',
-      maxWidth: 'max',
+      maxWidth: 'screen',
       width: 'default'
     },
     Container: {
@@ -67,7 +55,7 @@ export const theme = {
         backgroundColor: 'gray.0'
       }
     }
-  }
+  },
 };
 
 export default theme;
